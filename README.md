@@ -20,7 +20,7 @@ static const float SHUNT_RESISTANCE = 96.6f;    // ohms (adjust to your shunt)
 
 The `.ino` assumes you are using a reference voltage of 3.3V. Adjust line 23 if this is not the case.
 
-> [!NOTE] Keithley 2400 Emulation
+> [!NOTE]
 > The Arduino Nano is emulating a Keithley 2400 SourceMeter, so you can use any software that supports the Keithley 2400 to control the DemoSMU. This is tested using [CAMELS](https://fau-lap.github.io/NOMAD-CAMELS) and provides a very simple source-measure unit that can be integrated into existing setups easily.
 
 Reading voltage and current samples 100 times. The average of these samples is used as the measurement result. This helps to reduce noise in the measurements. To change this, modify lines 82 and 90.
@@ -57,7 +57,7 @@ For measurement software the connected Arduino is a Keithley 2400 SourceMeter. Y
 
 ### Available Commands
 
-> [!NOTE] Note
+> [!NOTE]
 > Only voltage and current can be read and set. Does not support reading resistances directly.
 
 The following SCPI commands are supported:
