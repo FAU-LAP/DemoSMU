@@ -2,7 +2,7 @@
 
 This repo contains all necessary information to build and use the DemoSMU, a tiny source-measure unit (source and measure voltage &amp; current) built from an Arduino Nano 33 IoT.
 
-<video src="Images/DemoSMU_IV_curve.mp4" style="width: 75%; height: auto;" controls></video>
+https://github.com/user-attachments/assets/6f9243c5-a85d-4b45-aedf-7c95de8d8e7f
 
 Here we use the DemoSMU to perform a simple current-voltage measurement of a diode using NOMAD CAMELS to control the instrument.
 
