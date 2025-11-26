@@ -2,6 +2,10 @@
 
 This repo contains all necessary information to build and use the DemoSMU, a tiny source-measure unit (source and measure voltage &amp; current) built from an Arduino Nano 33 IoT.
 
+<video src="Images\DemoSMU_IV_curve.mp4" style="width: 75%; height: auto;" controls></video>
+
+Here we use the DemoSMU to perform a simple current-voltage measurement of a diode using NOMAD CAMELS to control the instrument.
+
 ## Arduino Nano 33 IoT
 
 The Arduino Nano 33 IoT is a small, powerful board based on the SAMD21 microcontroller. The board operates at 3.3V and has a variety of analog and digital pins for interfacing with sensors and other components. It costs around 20€ to 30€.
